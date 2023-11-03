@@ -1,0 +1,114 @@
+.contenedor-padre{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding: 28px;
+}
+
+.herramientas-ia1{
+    display: flex;
+    background-color: var(--morado);
+    padding: 10px;
+    margin: 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    height: 490px;
+
+}
+.herramientas-ia2{
+    display: flex;
+    background-color: var(--amarillo);
+    padding: 10px;
+    margin: 0px 0px; 
+    flex-direction: column;
+    justify-content: center;
+    height: 490px;
+  
+}
+
+.herramientas-ia3{
+    display: flex;
+    background-color: var(--morado);
+    padding: 10px;
+    margin: 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    height: 490px;
+  
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 20px;
+    font-size: 20px;
+    border-top: 2px solid var(--amarillo);
+    border-bottom: 2px solid var(--amarillo);
+    border-left: 2px solid var(--morado);
+    border-right: 2px solid var(--morado);
+    background-color: var(--bg);
+    color: var(--white);
+}
+
+.creacion-de-contenido {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-creacion-de-contenido {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 350px;
+    gap: 10px;
+    place-items: center;
+}
+
+.grid-creacion-de-contenido-cajas {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+
+}
+.photo > img{
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+    border: 2px solid var(--bg);
+    padding: 30px;
+}
+
+.nombre__h3{
+    display: flex;
+    place-content: center;
+    height: 13%;
+    width: 60%;
+    background-color: var(--bg);
+    color: var(--white);
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+
+
+
+

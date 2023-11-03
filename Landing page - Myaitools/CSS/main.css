@@ -1,0 +1,47 @@
+@import "./header.css";
+@import "./wrapper.css";
+@import "./main.css";
+@import "./hero.css";
+@import "./medios.css";
+@import "./Footer.css";
+
+:root {
+--color-text: #f73030;
+--bg: #000000;
+--font: system-ui;
+--gray: #292929; 
+--grisfuerte:#252525;
+--white: #ffffff; 
+--morado: #9E6EED;
+--blue: #EEF8FF;
+--amarillo: #E2FF2D;
+--naranja: #F2833B;
+--turquesa: #8EEAD2;
+
+}
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+* a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  a:hover {
+    color: #ffffff;
+  }
+  
+html{
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: var(--font);
+}
+
+
+footer{
+    font-family: var(--font);
+} 

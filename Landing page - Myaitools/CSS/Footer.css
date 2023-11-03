@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    background-color: var(--amarillo);
+    font-weight:500;
+    border-top: 2px solid var(--bg);
+
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-logo{
+    height: 55px;
+    width: 55px;
+    align-items: center;
+    cursor: pointer;
+}

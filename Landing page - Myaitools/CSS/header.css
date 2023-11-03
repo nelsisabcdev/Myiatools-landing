@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+   padding-left: 10px;
+   padding-top: 10px;
+}
+.navbar-list {
+    display: none;
+}
+/*menu hamburguesa movil*/
+.navbar-menu {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.navbar-menu span {
+display: block;
+width: 100%;
+height: 2px;
+background-color: var(--bg);
+margin-top: 7px;
+transform-origin: 0px 100%;
+transition: all 600ms;
+
+}
+
+.activeline1__navbar-menu {
+    transform: rotate(45deg)
+    translate(-2px, 1px);
+}
+.activeline2__navbar-menu {
+    opacity: 0;
+    margin-left: -30px;   
+}
+.activeline3__navbar-menu {
+    transform: rotate(-45deg) translate(-2px, 2px);     
+}
+
+/*menu mobile*/
+
+.menu__mobile.inactive{
+    display: none;
+}
+
+
+  .menu__mobile.active {
+  height: 100%;
+    width: 60%;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: var(--bg);
+    border: 2px solid var(--white);
+  }
+
+  .menu__mobile ul {
+    list-style: none;
+    padding: 50px;
+  }
+  
+  .menu__mobile ul li {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    border: solid 2px var(--amarillo);
+
+  }
+  
+  .menu__mobile ul li a {
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 15%;
+  }
+
+
+
+@media (min-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--white);
+        height: 75px;
+        padding: 0 15px;
+    }
+.navbar-logo {
+    display: flex;
+    align-items: center;
+   padding-left: 10px;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    padding-right: 20px;
+
+}
+
+.navbar-ul {
+    list-style: none;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.navbar-ul > a {
+    text-decoration: none;
+    color: var(--bg);
+}
+} 
